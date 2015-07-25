@@ -1,0 +1,35 @@
+{
+  "name": "stakhanovist/queue-amazon-sqs",
+  "description": "Stakhanovist queue Amazon Sqs Adapter",
+  "type": "library",
+  "license": "BSD-3-Clause",
+  "keywords": [
+    "zf2",
+    "queue",
+    "amazon sqs"
+  ],
+  "homepage": "https://github.com/stakhanovist/queue-amazon-sqs",
+  "autoload": {
+    "psr-4": {
+      "Stakhanovist\\Queue\\Adapter\\AmazonSqs\\": "library",
+      "Stakhanovist\\Queue\\Adapter\\AmazonSqsTest\\": "tests"
+    }
+  },
+  "require-dev": {
+    "zendframework/zendframework": "~2",
+    "phpunit/phpunit": "4.7.*",
+    "satooshi/php-coveralls": "dev-master"
+
+  },
+  "require": {
+    "php": ">=5.4",
+    "stakhanovist/queue": "0.2.*@dev",
+    "aws/aws-sdk-php": "2.*"
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "0.1.x-dev",
+      "dev-develop": "0.2.x-dev"
+    }
+  }
+}
