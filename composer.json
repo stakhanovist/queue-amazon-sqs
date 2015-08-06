@@ -4,14 +4,18 @@
   "type": "library",
   "license": "BSD-3-Clause",
   "keywords": [
-    "zf2",
     "queue",
+    "amazon",
     "amazon sqs"
   ],
   "homepage": "https://github.com/stakhanovist/queue-amazon-sqs",
   "autoload": {
     "psr-4": {
       "Stakhanovist\\Queue\\Adapter\\AmazonSqs\\": "library",
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
       "Stakhanovist\\Queue\\Adapter\\AmazonSqsTest\\": "tests"
     }
   },
